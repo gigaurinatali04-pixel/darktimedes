@@ -1,0 +1,107 @@
+body {
+zoom: 0.8;
+}
+
+.bodybg {
+background-image: url(https://i1.beon.fun/75/62/6275/89/1670589/fon-i-zapisi.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: right conner;
+background-attachment: fixed;
+background-color: #000;
+color: #959595;
+font-size: 90%;
+font-family: 'Konztante', sans-serif;
+filter: grayscale(1%); brightness(1);
+}
+
+.post-content {
+background-image: url(https://i1.beon.fun/75/62/6275/90/1670590/fon-i-zapisi2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: right conner;
+background-attachment: fixed;
+background-color: #000;
+color: #959595;
+font-size: 90%;
+font-family: 'Konztante', sans-serif
+}
+
+.comment-content {
+background-image: url(https://i1.beon.fun/75/62/6275/90/1670590/fon-i-zapisi2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: right conner;
+background-attachment: fixed;
+background-color: #000;
+color: #959595;
+font-size: 90%;
+font-family: 'Konztante', sans-serif
+}
+
+.left-menu > div > h3 {
+	background-color:  rgba(80, 80, 80, 0.2) !important;
+border: 20%;
+font-size: 90%;
+padding: 5px 10px;
+border: 1px dotted rgba(255, 255, 255, 0.2) !important;
+margin: 7%;
+padding: 1%;
+}
+
+.left-menu > div {
+background-image: url(https://i1.beon.fun/75/62/6275/26/1670626/menyu.png);
+background-size: original size;
+background-repeat: no-repeat;
+background-attachment: center;
+background-attachment: fixed;
+background-color: #000;
+color: #fff;
+font-size: 100%;
+font-family: 'Konztante', sans-serif
+}
+
+nav.navbar {
+	background-image: url(https://i1.beon.fun/75/62/6275/90/1670590/fon-i-zapisi2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: right conner;
+background-attachment: fixed;
+background-color: #000;
+color: #fff;
+font-size: 90%;
+font-family: 'Konztante', sans-serif
+}
+
+.textareabg {
+	background-image: url(https://i1.beon.fun/75/62/6275/90/1670590/fon-i-zapisi2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: right conner;
+background-attachment: fixed;
+background-color: #000;
+color: #fff;
+font-size: 90%;
+font-family: 'Konztante', sans-serif
+}
+
+a {
+text-decoration: none !important;
+color: #959595 !important;
+}
+
+a:hover {
+text-decoration: none !important;
+color: #fff !important;	
+}
+
+/* Находим все изображения, в пути которых есть "avatars/" */
+img[src*="/avatars/"] {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+/* При наведении возвращаем цвет */
+img[src*="/avatars/"]:hover {
+    filter: grayscale(0%);
+}
